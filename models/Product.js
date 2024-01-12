@@ -18,8 +18,14 @@ Product.init(
     },
     product_name: {
       type: DataTypes.STRING,
-      price: DataTypes.DECIMAL,
-      stock: DataTypes.INTEGER,
+    },
+    price: {
+      type: DataTypes.DECIMAL(10, 2),
+      allowNull: false,
+    },
+    stock: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
     },
     category_id: {
       type: DataTypes.INTEGER,

@@ -14,19 +14,19 @@ Product.belongsToMany(Category, {
 });
 
 // Categories have many Products
-Product.belongsToMany(Tags, {
+Product.belongsToMany(Tag, {
   through: {
     model: ProductTag,
     unique: false,
   },
-  as: "product_id",
+  as: "product_categorys",
 });
-Tags.belongsToMany(Product, {
+Tag.belongsToMany(Product, {
   through: {
     model: ProductTag,
     unique: false,
   },
-  as: "tags_id",
+  as: "tag_categorys",
 });
 
 // Products belongToMany Tags (through ProductTag)
