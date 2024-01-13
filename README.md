@@ -9,3 +9,5 @@
 -I am grateful to Juan Delgado my tutor, because he was helpful in putting me on the right path with establishing my routes as well as my models for my tables because I was adding too many keys that was effecting the routes.
 
 ## Walkthrough Video
+
+https://drive.google.com/file/d/1rQMlatuPtDFnPUN5fR6nFBQZXgPP6lv4/view
